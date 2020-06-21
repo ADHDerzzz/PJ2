@@ -1,0 +1,108 @@
+.mainbox{
+    background-color: #fff;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 640px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.boxtitle{
+    height: 30px;
+    background-color: #d1d5da;
+    color: gray;
+}
+.titletext{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.maintitle{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.title1{
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+.title2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.maincontent{
+    height: 400px;
+    margin-left: 100px;
+}
+.imgbox{
+    width: 480px;height: 300px;border-radius: 5px;margin-top: 30px;
+}
+.table_right{
+    box-sizing: border-box;
+    border-spacing: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table_right tr{
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    height: 35px;
+    border-left: none;
+    border-right: none;
+}
+.table_right div{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.likenum{
+    text-align: center;
+    color: crimson;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+}
+.description{
+    text-align: center;
+    line-height: 30px;
+}
+/*=======button======*/
+.button{
+    width: 400px;
+    height: 36px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-family:"Segoe UI";
+    line-height: 18px;
+    cursor:pointer;
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    background-color: crimson;
+}
+.button{
+    width: 400px;
+    height: 36px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-family:"Segoe UI";
+    line-height: 18px;
+    cursor:pointer;
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    background-color: crimson;
+}
+.button:hover{
+    background-color: #dc717a;
+}

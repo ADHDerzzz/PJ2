@@ -1,0 +1,186 @@
+.main{
+    margin-left: 40px;
+    margin-right: 20px;
+    height:780px;
+    margin-bottom: 30px;
+}
+.main .left{
+    width: 300px;
+    float: left;
+}
+.table_left{
+    box-sizing: border-box;
+    border-spacing: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table_left tr{
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    height: 35px;
+    border-left: none;
+    border-right: none;
+}
+.table_left div{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.table_left div:hover{
+    color: #0f88eb;
+}
+.table_right{
+    box-sizing: border-box;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table_right tr{
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    border-left: none;
+    border-right: none;
+}
+
+.mainbox{
+    background-color: #fff;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 65px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.mainbox .input_text{
+    width: 200px;
+    height: 30px;
+    margin-top: 0;
+    margin-left: 5px;
+    float: left;
+}
+.mainbox .search_icon{
+    background: url(../../img/images/search1.png)no-repeat;
+    width: 40px;
+    height: 30px;
+    margin-left:10px;
+    margin-top:3px;
+    float: left;
+    cursor: pointer;
+}
+.mainbox .search_icon:hover{
+    background: url(../../img/images/search2.png)no-repeat;
+}
+.boxtitle{
+    height: 30px;
+    background-color: #d1d5da;
+    color: gray;
+}
+.titletext{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+
+/*=====图片展示=====*/
+.banner-list {
+    position: relative;
+    width: 760px;
+    height: 570px;
+}
+.banner-list ul {
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.banner-list li {
+    overflow: hidden;
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin: 0 30px 30px 0;
+    border-radius: 4px;
+}
+.banner-list li a {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+}
+.banner-list li a img {
+    width: 100%;
+    height: 140px;
+}
+.banner-list li a .info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    color: transparent;
+}
+.banner-list li a:hover .info {
+    height: 140px;
+    background: rgba(0, 0, 0, .4);
+}
+.banner-list li a .info .title {
+    overflow: hidden;
+    line-height: 45px;
+    color: transparent;
+    margin: 0 5px;
+    word-break: break-all;
+}
+.banner-list li a:hover .info .title{
+    line-height: 18px;
+    padding-top: 10px;
+    color: #fff;
+}
+.banner-list li a .info .description{
+    margin-left: 5px;
+    padding: 12px 0 10px;
+}
+.banner-list li a:hover .info .description{
+    line-height: 18px;
+    padding-top: 10px;
+    color:#99a2aa;
+}
+/*======页码=======*/
+#page-nav{
+    height: 40px;
+    width:100%;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+#page-nav ul{
+    overflow: hidden;
+    margin: 0 30%;
+    width:80%;
+}
+#page-nav>ul>li{
+    float: left;
+    list-style-type: none;
+    margin-right:20px;
+}
+/*=====选择=====*/
+select{
+    border: 1px solid #d1d5da;
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    margin-left: 20px;
+}
+/*=====按钮=====*/
+.button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family:"Segoe UI";
+    line-height: 20px;
+    cursor:pointer;
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+}
